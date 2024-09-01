@@ -1,30 +1,32 @@
+import { Plus } from "lucide-react"
+import Card from "./Card"
+
+const cardData1 = {
+    balance : 5678,
+    cardHolder : "Pranshu Tomer",
+    valid : "12/22",
+    cardNumber : "3456 1342 8735 1287"
+}
+
+const cardData2 = {
+    balance : 9878,
+    cardHolder : "Sanjeev Tomar",
+    valid : "09/28",
+    cardNumber : "1754 7642 0023 2877"
+}
 
 function Cards(){
-
-    const cardData = {
-        balance : 5678,
-        cardHolder : "Pranshu Tomer",
-        valid : "12/22",
-        cardNumber : "3456 1342 8735 1287"
-    }
-
     return (
-        <div className="w-[280px]">
-            <div className="bg-[#314ca3] h-[140px] rounded-t-3xl relative">
-                <p className="absolute text-white top-5 left-8 text-xs font-semibold">Balance</p>
-                <h1 className="absolute text-white text-xl top-8 left-8">₹ {cardData.balance}</h1>
-                <img src="/assets/chip.png" alt="" className="h-[40px] absolute right-10 top-5" />
-                <p className="absolute text-white bottom-9 left-8 text-xs font-semibold">Card Holder</p>
-                <h1 className="absolute text-white text-md bottom-4 left-8 font-bold">{cardData.cardHolder}</h1>
-                <p className="absolute text-white bottom-9 right-12 text-xs font-semibold">Valid</p>
-                <h1 className="absolute text-white text-md bottom-4 right-9 font-semibold">{cardData.valid}</h1>
-            </div>
-            <div className="bg-[#5068b2] h-[80px] rounded-b-3xl flex justify-between px-6 items-center">
-                <div className="flex flex-col">
-                    <p className="text-white text-xs font-bold">Card Number</p>
-                    <h1 className="text-white text-lg font-bold">{cardData.cardNumber}</h1>
+        <div className="w-[60%] px-5">
+            <div className="flex justify-between">
+                <h2 className="font-semibold text-lg">My Cards</h2>
+                <div className="flex justify-center items-center bg-[#c4c4c4] px-2 rounded-full cursor-pointer">
+                    <Plus color='#8c8c8c'/>
                 </div>
-                <img src="/assets/masterCard.svg" alt="" className="h-[20px]" />
+            </div>
+            <div className="flex gap-5 pt-5">
+                <Card cardData={cardData1}/>
+                <Card cardData={cardData2}/>
             </div>
         </div>
     )

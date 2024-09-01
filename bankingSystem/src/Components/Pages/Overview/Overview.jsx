@@ -1,11 +1,9 @@
-import MyBarChart from "./Activity"
-import Cards from "./Cards"
+import FirstSection from "./FirstSection"
 
 function Overview(){
     return (
         <div className="bg-[#f5f6fa] h-full w-full">
-            <Cards />
-            <MyBarChart />
+            <FirstSection />
         </div>
     )
 }
