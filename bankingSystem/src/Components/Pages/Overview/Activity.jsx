@@ -8,7 +8,7 @@ const data = {
       {
         label: 'Deposit',
         data: [400, 300, 200, 400, 200, 400, 300],
-        backgroundColor: 'rgba(54, 162, 235, 0.5)',
+        backgroundColor: 'rgba(48, 77, 163, 1)',
       },
       {
         label: 'Withdraw',

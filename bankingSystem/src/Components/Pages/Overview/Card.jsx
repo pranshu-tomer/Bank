@@ -12,7 +12,7 @@ function Card({cardData}){
                 <p className="absolute text-white bottom-9 right-12 text-xs font-semibold">Valid</p>
                 <h1 className="absolute text-white text-md bottom-4 right-9 font-semibold">{cardData.valid}</h1>
             </div>
-            <div className="bg-[#5068b2] h-[80px] rounded-b-3xl flex justify-between px-6 items-center">
+            <div className="bg-[#5068b2] h-[80px] rounded-b-3xl flex justify-between px-5 items-center">
                 <div className="flex flex-col">
                     <p className="text-white text-xs font-bold">Card Number</p>
                     <h1 className="text-white text-lg font-bold">{cardData.cardNumber}</h1>
