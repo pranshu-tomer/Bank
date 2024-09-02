@@ -3,7 +3,7 @@ import SecondSection from "./SecondSection"
 
 function Overview(){
     return (
-        <div className="bg-[#f5f6fa] h-full w-full">
+        <div className="w-full pb-10">
             <FirstSection />
             <SecondSection />
         </div>

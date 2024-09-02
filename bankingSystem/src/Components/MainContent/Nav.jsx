@@ -2,7 +2,7 @@ import { Search, Bell, User } from 'lucide-react';
 
 function Nav({title}){
     return (
-        <div className="h-[80px] w-full flex items-center justify-between px-12">
+        <div className="h-[80px] w-full flex items-center justify-between px-12 bg-white">
             <h1 className="font-semibold text-3xl">{title}</h1>
             <div className="flex gap-4">
                 <div className="flex bg-[#c4c4c4] py-2 px-4 rounded-3xl gap-3">

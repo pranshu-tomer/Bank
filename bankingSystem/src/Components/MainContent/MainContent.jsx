@@ -3,7 +3,7 @@ import Nav from "./Nav"
 
 function MainContent(){
     return (
-        <div className="flex-1">
+        <div className="flex-1 overflow-scroll h-full bg-[#f5f6fa]">
             <Nav title="Overview"/>
             <Overview />
         </div>
