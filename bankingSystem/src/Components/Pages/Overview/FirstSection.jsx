@@ -1,5 +1,5 @@
-import Cards from "./Cards"
-import Transactions from "./Transactions"
+import Cards from "./Components/CardDetails/Cards"
+import Transactions from "./Components/TransactionDetails/Transactions"
 
 function FirstSection(){
     return (

@@ -1,5 +1,5 @@
 import { Send } from 'lucide-react'
-import UserBlock from './UserBlock'
+import UserBlock from "./UserBlock"
 
 const account = [
     {

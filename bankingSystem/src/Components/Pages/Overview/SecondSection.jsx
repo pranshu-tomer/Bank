@@ -1,5 +1,5 @@
-import QuickTransfer from "./QuickTransfer"
-import WeeklySpend from "./WeeklySpend"
+import QuickTransfer from "./Components/QuickTransfer/QuickTransfer"
+import WeeklySpend from "./Components/WeeklyData/WeeklySpend"
 
 function SecondSection(){
     return (
